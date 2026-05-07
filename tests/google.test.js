@@ -16,8 +16,6 @@ async function testGoogle() {
   }
 }
 
-jest.setTimeout(30000);
-
 test("Google", async () => {
   await testGoogle();
 });
